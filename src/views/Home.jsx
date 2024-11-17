@@ -67,16 +67,13 @@ class HomeView extends Component {
         <Banner className="mb-3" id="carouselHomeBanner" data={data.banner} />
         <div className="container-fluid bg-light mb-3">
           <div className="row g-3">
-            <div className="col-md-9">
+            <div className="col-md-12">
               <Carousel id="elect-product-category" className="mb-3">
                 {carouselContent}
               </Carousel>
               <Support />
             </div>
-            <div className="col-md-3">
-              <CardLogin className="mb-3" />
-              <CardImage src="../../images/banner/Watches.webp" to="promo" />
-            </div>
+
           </div>
         </div>
         <div className="container-fluid bg-light mb-3">
@@ -103,11 +100,11 @@ class HomeView extends Component {
             <div className="col-md-3">
               <Link to="/" className="text-decoration-none">
                 <img
-                  src="../../images/category/male.webp"
+                  src="../../images/category/mens.png"
                   className="img-fluid rounded-circle"
                   alt="..."
                 />
-                <div className="text-center h6">Men's Clothing</div>
+                <div className="text-center h5">Men's Clothing</div>
               </Link>
             </div>
             <div className="col-md-3">

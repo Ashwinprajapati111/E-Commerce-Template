@@ -2,19 +2,38 @@ export const data = {
   banner: [
     {
       to: "/link",
-      img: "../../images/banner/Banner_2.webp",
+      img: "../../images/banner/02.webp",
       title: "First slide label",
       description: "Nulla vitae elit libero, a pharetra augue mollis interdum",
     },
+    
     {
       to: "/link",
-      img: "../../images/banner/Banner_3.webp",
-      title: "Second slide label",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      img: "../../images/banner/03.webp",
+      title: "Third slide label",
+      description: " Praesent commodo cursus magna, vel scelerisque nisl.",
     },
     {
       to: "/link",
-      img: "../../images/banner/Banner_1.webp",
+      img: "../../images/banner/04.webp",
+      title: "Third slide label",
+      description: " Praesent commodo cursus magna, vel scelerisque nisl.",
+    },
+    {
+      to: "/link",
+      img: "../../images/banner/05.webp",
+      title: "Third slide label",
+      description: " Praesent commodo cursus magna, vel scelerisque nisl.",
+    },
+    {
+      to: "/link",
+      img: "../../images/banner/06.webp",
+      title: "Third slide label",
+      description: " Praesent commodo cursus magna, vel scelerisque nisl.",
+    },
+    {
+      to: "/link",
+      img: "../../images/banner/07.webp",
       title: "Third slide label",
       description: " Praesent commodo cursus magna, vel scelerisque nisl.",
     },

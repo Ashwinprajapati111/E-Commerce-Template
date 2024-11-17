@@ -53,7 +53,7 @@ const ContactUsForm = (props) => {
             component={renderFormGroupField}
             placeholder="Your company name"
             icon={IconBuilding}
-            required={true}
+            required={false}
             validate={[required, maxLength50]}
             maxLength="50"
             className="mb-3"

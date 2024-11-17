@@ -1,12 +1,10 @@
 import { Link } from "react-router-dom";
+import './as.css';
 
 const TopMenu = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-0">
-      <div className="container-fluid">
-        <Link className="navbar-brand" to="/">
-          E-Commerce
-        </Link>
+    <nav className="navbar navbar-expand-lg navbar-dark my_bg p-0 ">
+      <div className="my_nav">
         <button
           className="navbar-toggler"
           type="button"
@@ -20,6 +18,42 @@ const TopMenu = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav">
+            
+            <li className="nav-item">
+              <Link className="nav-link" to="/category">
+                Fashion
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/category">
+                Supermarket
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/category">
+                Electronics
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/category">
+                Furniture
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/category">
+                Garden & Outdoors
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/category">
+                Jewellery
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/documentation">
+                Documentation
+              </Link>
+            </li>
             <li className="nav-item dropdown">
               <button
                 className="btn nav-link dropdown-toggle fw-bold"
@@ -78,41 +112,6 @@ const TopMenu = () => {
                   </Link>
                 </li>
               </ul>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/category">
-                Fashion
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/category">
-                Supermarket
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/category">
-                Electronics
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/category">
-                Furniture
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/category">
-                Garden & Outdoors
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/category">
-                Jewellery
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/documentation">
-                Documentation
-              </Link>
             </li>
           </ul>
         </div>

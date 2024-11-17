@@ -1,0 +1,53 @@
+  /* for Header */
+.my_search{
+    margin-top: 57px
+}
+.my_image{
+    width:174px;
+    height: auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .my_search {
+        margin-top: 10px;
+    }
+    .my_image{
+        width:250px;
+        height: auto;
+    }
+  }
+
+  /* for TopMenu */
+  .my_bg{
+    background-color: #00566a;
+  }
+  .my_bg-1{
+    background-color: #05667c;
+  }
+
+
+/* for Footer */
+  .ftbottom{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    background-color: #05667c;
+  }
+/* my navbar */
+.my_nav{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center !important;
+    margin-top: auto;
+    width: 100 !important;
+    display: flex;
+}
+
+/* My footer */
+.justi{
+  text-align: justify;
+  text-justify: inter-word;
+}

@@ -29,34 +29,24 @@ const ContactUsView = () => {
                 Head Office
               </h6>
               <address>
-                <strong>Twitter, Inc.</strong>
+                <strong>Shree Vachanamrut.</strong>
                 <br />
-                1355 Market St, Suite 900
+                Shop 3 AB Tower, Shreeji Gold Complex
                 <br />
-                San Francisco, CA 94103
-                <br />
-                <i className="bi bi-telephone"></i>{" "}
-                <abbr title="Phone">P:</abbr> (123) 456-7890
-              </address>
-              <h6 className="card-title border-bottom border-dark pb-2">
-                Development Office
-              </h6>
-              <address>
-                <strong>Twitter, Inc.</strong>
-                <br />
-                1355 Market St, Suite 900
-                <br />
-                San Francisco, CA 94103
+                Opp.Sona Party Plot, Laxmipura, Vadodara
                 <br />
                 <i className="bi bi-telephone"></i>{" "}
-                <abbr title="Phone">P:</abbr> (123) 456-7890
+                <abbr title="Phone">P:</abbr> +91 8511199317
               </address>
+              
+              
             </div>
           </div>
           <div className="card">
             <div className="google-maps">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d313635.5491853188!2d-122.57606416467848!3d37.20933611930123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085815c67b3754d%3A0xb42714f3436732f2!2s1355%20Market%20St%20%23900%2C%20San%20Francisco%2C%20CA%2094103%2C%20USA!5e0!3m2!1sen!2sin!4v1599193189366!5m2!1sen!2sin"
+              
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.744387818218!2d73.22740971008491!3d22.28767054326988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc54fc674b317%3A0x1f52246f558cc3f1!2sShree%20Vachanamrut%20Construction!5e0!3m2!1sen!2sus!4v1731637816455!5m2!1sen!2sus" 
                 width={400}
                 height={300}
                 frameBorder={0}

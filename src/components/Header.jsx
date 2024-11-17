@@ -1,21 +1,24 @@
 import { lazy } from "react";
 import { Link } from "react-router-dom";
+import './as.css';
+
 const Search = lazy(() => import("./Search"));
+
 
 const Header = () => {
   return (
     <header className="p-3 border-bottom bg-light">
       <div className="container-fluid">
         <div className="row g-3">
-          <div className="col-md-3 text-center">
+          <div className="col-md-4 text-center">
             <Link to="/">
-              <img alt="logo" src="../../images/logo.webp" />
+              <img alt="logo" className="my_image " src="../../images/mylogo.svg" />
             </Link>
           </div>
-          <div className="col-md-5">
+          <div className="col-md-5 my_search">
             <Search />
           </div>
-          <div className="col-md-4">
+          <div className="col-md-2 my_search">
             <div className="position-relative d-inline me-3">
               <Link to="/cart" className="btn btn-primary">
                 <i className="bi bi-cart3"></i>
