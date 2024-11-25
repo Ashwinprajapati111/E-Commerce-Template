@@ -30,6 +30,14 @@ const ContactUsView = lazy(() => import("./views/pages/ContactUs"));
 const SupportView = lazy(() => import("./views/pages/Support"));
 const BlogView = lazy(() => import("./views/blog/Blog"));
 const BlogDetailView = lazy(() => import("./views/blog/Detail"));
+const Graphic = lazy(() => import("./views/my_pages/my_graphic"));
+const Construction = lazy(() => import("./views/my_pages/my_construction"));
+const Gents = lazy(() => import("./views/my_pages/my_gents"));
+const Printing = lazy(() => import("./views/my_pages/my_printing"));
+const Social = lazy(() => import("./views/my_pages/my_social"));
+const Tshirt = lazy(() => import("./views/my_pages/my_tshirt"));
+const Video = lazy(() => import("./views/my_pages/my_video"));
+const Web = lazy(() => import("./views/my_pages/my_web"));
 
 function App() {
   return (
@@ -71,6 +79,14 @@ function App() {
             <Route exact path="/blog" element={<BlogView/>} />
             <Route exact path="/blog/detail" element={<BlogDetailView/>} />
             <Route exact path="/500" element={<InternalServerErrorView/>} />
+            <Route exact path="/graphic_designing" element={<Graphic/>} />
+            <Route exact path="/construction" element={<Construction/>} />
+            <Route exact path="/gents" element={<Gents/>} />
+            <Route exact path="/printing" element={<Printing/>} />
+            <Route exact path="/social" element={<Social/>} />
+            <Route exact path="/tshirt" element={<Tshirt/>} />
+            <Route exact path="/video" element={<Video/>} />
+            <Route exact path="/web" element={<Web/>} />
             <Route path="*" element={<NotFoundView/>} />
           </Routes>
         </Suspense>

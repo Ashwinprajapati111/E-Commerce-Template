@@ -2,6 +2,39 @@ import { Link } from "react-router-dom";
 import './as.css';
 
 const TopMenu = () => {
+  const menn = [
+    {
+      menu_name: "About Us",
+      menu_link: "/category",
+    },
+    {
+      menu_name: "Graphics & Web Designing",
+      menu_link: "/category",
+    },
+    {
+      menu_name: "Corporate Gifts",
+      menu_link: "/category",
+    },
+    {
+      menu_name: "Albums",
+      menu_link: "/category",
+    },
+    {
+      menu_name: "Label & Packaging",
+      menu_link: "/category",
+    },
+    {
+      menu_name: "Photo Gifts",
+      menu_link: "/category",
+    },
+    {
+      menu_name: "Stationaries",
+      menu_link: "/category",
+    },
+
+  ];
+
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark my_bg p-0 ">
       <div className="my_nav">
@@ -18,42 +51,19 @@ const TopMenu = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav">
-            
-            <li className="nav-item">
-              <Link className="nav-link" to="/category">
-                Fashion
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/category">
-                Supermarket
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/category">
-                Electronics
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/category">
-                Furniture
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/category">
-                Garden & Outdoors
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/category">
-                Jewellery
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/documentation">
-                Documentation
-              </Link>
-            </li>
+            {menn.map((menuu) => {
+              return (
+                <li className="nav-item">
+                  <Link className="nav-link" to={menuu.menu_link}>
+                    {menuu.menu_name}
+                  </Link>
+                </li>
+              )
+            })
+
+            }
+
+
             <li className="nav-item dropdown">
               <button
                 className="btn nav-link dropdown-toggle fw-bold"

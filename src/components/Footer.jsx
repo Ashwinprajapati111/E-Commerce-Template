@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import './as.css';
 
 const Footer = () => {
   return (
@@ -9,28 +10,19 @@ const Footer = () => {
             Get connected with us on social networks!
           </div>
           <div className="col-md-3 py-3 text-center text-white">
-            <Link to="/" title="Apple">
-              <i className="bi bi-apple text-light me-3"></i>
+            <Link to="https://w.app/qz3H2v" title="Youtube">
+              <i className="fa fa-whatsapp me-3"></i>
             </Link>
-            <Link to="/" title="Windows">
-              <i className="bi bi-windows text-light me-3"></i>
-            </Link>
-            <Link to="/" title="Android">
-              <i className="bi bi-android2 text-light me-3"></i>
-            </Link>
-            |
-            <Link to="/" title="Twitter">
-              <i className="bi bi-twitter-x text-light ms-3 me-3"></i>
-            </Link>
-            <Link to="/" title="Facebook">
+            <Link to="https://www.facebook.com/profile.php?id=100020534021762" title="Facebook">
               <i className="bi bi-facebook text-light me-3"></i>
             </Link>
-            <Link to="/" title="Instagram">
+            <Link to="https://www.instagram.com/ashvin.avp111/" title="Instagram">
               <i className="bi bi-instagram text-light me-3"></i>
             </Link>
-            <Link to="/" title="Youtube">
+            <Link to="https://www.youtube.com/watch?v=WhswAhJii7g" title="Youtube">
               <i className="bi bi-youtube text-light me-3"></i>
             </Link>
+
           </div>
         </div>
       </div>
@@ -40,7 +32,7 @@ const Footer = () => {
             <div className="h6">Shree Vachanamrut</div>
             <hr />
             <p className="justi">
-           Our work stands out with vibrant colors, sharp details, and a sleek, polished finish that captures attention and makes an impact. Each project is tailored to be unique, combining professional expertise with artistic vision to deliver stunning, high-quality results. Materials are durable, crisp, and built a lasting impression. We bring your ideas to life in captivating and memorable ways.
+              Our work stands out with vibrant colors, sharp details, and a sleek, polished finish that captures attention and makes an impact. Each project is tailored to be unique, combining professional expertise with artistic vision to deliver stunning, high-quality results. Materials are durable, crisp, and built a lasting impression. We bring your ideas to life in captivating and memorable ways.
             </p>
           </div>
           <div className="col-md-3 py-3">
@@ -52,7 +44,7 @@ const Footer = () => {
                   to="/"
                   className="text-decoration-none text-white stretched-link"
                 >
-                  Electronics
+                  Printed Tshirts
                 </Link>
               </li>
               <li className="list-group-item my_bg text-white border-light">
@@ -60,7 +52,7 @@ const Footer = () => {
                   to="/"
                   className="text-decoration-none text-white stretched-link"
                 >
-                  Mobiles
+                  Business Cards
                 </Link>
               </li>
               <li className="list-group-item my_bg text-white border-light">
@@ -68,7 +60,7 @@ const Footer = () => {
                   to="/"
                   className="text-decoration-none text-white stretched-link"
                 >
-                  Car & bike
+                  Non-vowen Bags
                 </Link>
               </li>
               <li className="list-group-item my_bg text-white border-light">
@@ -76,7 +68,7 @@ const Footer = () => {
                   to="/"
                   className="text-decoration-none text-white stretched-link"
                 >
-                  Super Market
+                  Invitation Cards
                 </Link>
               </li>
               <li className="list-group-item my_bg text-white border-light">
@@ -84,13 +76,13 @@ const Footer = () => {
                   to="/"
                   className="text-decoration-none text-white stretched-link"
                 >
-                  Travel Cards
+                  Banner / Flyer
                 </Link>
               </li>
             </ul>
           </div>
           <div className="col-md-3 py-3">
-            <div className="h6">Policy</div>
+            <div className="h6">Services</div>
             <hr />
             <ul className="list-group list-group-flush">
               <li className="list-group-item my_bg text-white border-light">
@@ -98,7 +90,7 @@ const Footer = () => {
                   to="/"
                   className="text-decoration-none text-white stretched-link"
                 >
-                  Return Policy
+                  Custom Business Website
                 </Link>
               </li>
               <li className="list-group-item my_bg text-white border-light">
@@ -106,7 +98,7 @@ const Footer = () => {
                   to="/"
                   className="text-decoration-none text-white stretched-link"
                 >
-                  Terms Of Use
+                  Social Media Advertising
                 </Link>
               </li>
               <li className="list-group-item my_bg text-white border-light">
@@ -114,7 +106,7 @@ const Footer = () => {
                   to="/"
                   className="text-decoration-none text-white stretched-link"
                 >
-                  Security
+                  Wholesale Print Program
                 </Link>
               </li>
               <li className="list-group-item my_bg text-white border-light">
@@ -122,7 +114,7 @@ const Footer = () => {
                   to="/"
                   className="text-decoration-none text-white stretched-link"
                 >
-                  Privacy
+                  Video Editing
                 </Link>
               </li>
               <li className="list-group-item my_bg text-white border-light">
@@ -130,7 +122,7 @@ const Footer = () => {
                   to="/"
                   className="text-decoration-none text-white stretched-link"
                 >
-                  EPR Compliance
+                  Product Design
                 </Link>
               </li>
             </ul>
@@ -147,11 +139,11 @@ const Footer = () => {
               <br />
               Laxmipura, Vadodara
               <br />
-              <abbr title="Phone">P:</abbr> +91 8511199317
+              <abbr>P :</abbr> +91 8511199317
             </address>
             <div className="h6">Customer Care</div>
             <hr />
-            
+
             <i className="bi bi-envelope"></i> info@shreevachanamrut.com
           </div>
         </div>
@@ -176,8 +168,8 @@ const Footer = () => {
           <div className="col-md-3 py-2">
             © Shree Vachanamrut Arts & Creation
           </div>
-         
-         
+
+
         </div>
       </div>
     </footer>
