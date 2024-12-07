@@ -38,6 +38,7 @@ const Social = lazy(() => import("./views/my_pages/my_social"));
 const Tshirt = lazy(() => import("./views/my_pages/my_tshirt"));
 const Video = lazy(() => import("./views/my_pages/my_video"));
 const Web = lazy(() => import("./views/my_pages/my_web"));
+const Products = lazy(() => import("./views/my_pages/my_products"));
 
 function App() {
   return (
@@ -87,6 +88,7 @@ function App() {
             <Route exact path="/tshirt" element={<Tshirt/>} />
             <Route exact path="/video" element={<Video/>} />
             <Route exact path="/web" element={<Web/>} />
+            <Route exact path="/products" element={<Products/>} />
             <Route path="*" element={<NotFoundView/>} />
           </Routes>
         </Suspense>

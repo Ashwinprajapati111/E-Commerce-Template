@@ -23,31 +23,33 @@ const BlogDetailView = () => {
 
 
             <div className="display-6 pb-3 mb-1">
-              Our Services includes
+            Gents Tailor Services
             </div>
             <blockquote className="blockquote bg-secondary p-3 text-white">
               <p>
-                "Transforming ideas into impactful visuals that engage and inspire audiences.".
+              "Expert tailoring services delivering perfect fits for every occasion."
               </p>
             </blockquote>
 
             <div className="row">
               <div className="col-md-6 border-bottom">
                 <ul>
-                  <li><b>Logo Design</b><p>Creating unique and memorable brand logos.</p></li>
-                  <li><b>Brand Identity</b><p> Developing cohesive visual branding, including color schemes, typography, and style guidelines.</p></li>
-                  <li><b>Marketing Materials</b><p>Designing brochures, flyers, posters, and business cards.</p></li>
-                  <li><b>Web Graphics</b><p>Crafting website banners, icons, and UI/UX elements.</p></li>
+                  <li><b>Custom Suit Tailoring</b><p>Bespoke suits crafted to perfection.</p></li>
+                  <li><b>Shirt Stitching</b><p> Made-to-measure shirts for formal and casual wear.</p></li>
+                  <li><b>Trouser and Pant Tailoring</b><p>Tailored bottoms for a precise fit.</p></li>
+                  <li><b>Alteration Services </b><p>Adjusting garments for comfort and style.</p></li>
+                  <li><b>Wedding Attire</b><p>Custom sherwanis, suits, and tuxedos for special occasions.</p></li>
                   
                 </ul>
               </div>
               <div className="col-md-6 border-bottom">
                 <ul>
                  
-                  <li><b>Social Media Graphics</b><p>Custom designs for posts, ads, and headers.</p></li>
-                  <li><b>Packaging Design</b><p>Designing product packaging that stands out.</p></li>
-                  <li><b>Presentation Design</b><p>Professional PowerPoint or Keynote templates.</p></li>
-                  <li><b>Print Design</b><p>High-quality materials for print publications.</p></li>
+                  <li><b>Ethnic Wear</b><p>Tailoring kurta-pajamas, waistcoats, and traditional outfits.</p></li>
+                  <li><b>Blazer and Jacket Tailoring</b><p>Stylish outerwear with perfect measurements.</p></li>
+                  <li><b>Overcoat and Formal Wear </b><p>Custom long coats and evening wear.</p></li>
+                  <li><b>Corporate Wear</b><p>Tailored uniforms and office attire.</p></li>
+                  <li><b>Fabric Selection Guidance </b><p> Expert advice on choosing the right material.</p></li>
                 </ul>
               </div>
               <a href="" class="hire center my_center">Hire A Designer<div class="shine"></div></a>

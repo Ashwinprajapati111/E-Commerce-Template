@@ -168,7 +168,7 @@ class HomeView extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-3">
-                <Link to="/" className="text-decoration-none">
+                <Link to="/gents" className="text-decoration-none">
                   <img
                     src="../../images/category/mens.png"
                     className="img-fluid rounded-circle"
@@ -178,7 +178,7 @@ class HomeView extends Component {
                 </Link>
               </div>
               <div className="col-md-3">
-                <Link to="/" className="text-decoration-none">
+                <Link to="/video" className="text-decoration-none">
                   <img
                     src="../../images/category/Video Editing.png"
                     className="img-fluid rounded-circle"
@@ -188,7 +188,7 @@ class HomeView extends Component {
                 </Link>
               </div>
               <div className="col-md-3">
-                <Link to="/" className="text-decoration-none">
+                <Link to="/graphic_designing" className="text-decoration-none">
                   <img
                     src="../../images/category/Graphic.png"
                     className="img-fluid rounded-circle"
@@ -198,7 +198,7 @@ class HomeView extends Component {
                 </Link>
               </div>
               <div className="col-md-3">
-                <Link to="/" className="text-decoration-none">
+                <Link to="/web" className="text-decoration-none">
                   <img
                     src="../../images/category/web.png"
                     className="img-fluid rounded-circle"

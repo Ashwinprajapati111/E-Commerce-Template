@@ -290,3 +290,7 @@ a:hover {
     text-align: center;
 
   }
+
+  .my-section{
+    padding: 10px 0 10px!important;
+  }

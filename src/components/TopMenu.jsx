@@ -8,25 +8,10 @@ const TopMenu = () => {
       menu_link: "/category",
     },
     {
-      menu_name: "Graphics & Web Designing",
-      menu_link: "/category",
+      menu_name: "Our Productcs",
+      menu_link: "/products",
     },
-    {
-      menu_name: "Corporate Gifts",
-      menu_link: "/category",
-    },
-    {
-      menu_name: "Albums",
-      menu_link: "/category",
-    },
-    {
-      menu_name: "Label & Packaging",
-      menu_link: "/category",
-    },
-    {
-      menu_name: "Photo Gifts",
-      menu_link: "/category",
-    },
+    
     {
       menu_name: "Stationaries",
       menu_link: "/category",
@@ -50,7 +35,61 @@ const TopMenu = () => {
           <span className="navbar-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
+
           <ul className="navbar-nav">
+            <li className="nav-item dropdown">
+              <button
+                className="btn nav-link dropdown-toggle"
+                id="navbarDropdown"
+                data-toggle="dropdown"
+                aria-expanded="false"
+                data-bs-toggle="dropdown"
+              >
+                Our Services
+              </button>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <Link className="dropdown-item" to="/graphic_designing">
+                    Graphics
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/printing">
+                    Printing
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/video">
+                    Video Editing
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/web">
+                    Web Services
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/social">
+                    Social Media
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/tshirt">
+                    Tshirt Printing
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/gents">
+                    Gents Tailor
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/construction">
+                    Construction Consultant
+                  </Link>
+                </li>
+              </ul>
+            </li>
             {menn.map((menuu) => {
               return (
                 <li className="nav-item">

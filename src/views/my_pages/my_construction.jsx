@@ -23,31 +23,33 @@ const BlogDetailView = () => {
 
 
             <div className="display-6 pb-3 mb-1">
-              Our Services includes
+            construction services
             </div>
             <blockquote className="blockquote bg-secondary p-3 text-white">
               <p>
-                "Transforming ideas into impactful visuals that engage and inspire audiences.".
+              "Quality construction services delivering durable solutions for residential and commercial projects."
               </p>
             </blockquote>
 
             <div className="row">
               <div className="col-md-6 border-bottom">
                 <ul>
-                  <li><b>Logo Design</b><p>Creating unique and memorable brand logos.</p></li>
-                  <li><b>Brand Identity</b><p> Developing cohesive visual branding, including color schemes, typography, and style guidelines.</p></li>
-                  <li><b>Marketing Materials</b><p>Designing brochures, flyers, posters, and business cards.</p></li>
-                  <li><b>Web Graphics</b><p>Crafting website banners, icons, and UI/UX elements.</p></li>
+                  <li><b>Residential Construction</b><p>Building custom homes, renovations, and additions.</p></li>
+                  <li><b>Commercial Construction</b><p>  Developing offices, retail spaces, and industrial buildings.</p></li>
+                  <li><b>General Contracting</b><p>Overseeing and managing all phases of construction projects.</p></li>
+                  <li><b>Renovation and Remodeling</b><p>Transforming existing spaces with updated designs and functionality.</p></li>
+                  <li><b>Interior Fit-Outs</b><p>Customizing interiors for homes or businesses.</p></li>
                   
                 </ul>
               </div>
               <div className="col-md-6 border-bottom">
                 <ul>
                  
-                  <li><b>Social Media Graphics</b><p>Custom designs for posts, ads, and headers.</p></li>
-                  <li><b>Packaging Design</b><p>Designing product packaging that stands out.</p></li>
-                  <li><b>Presentation Design</b><p>Professional PowerPoint or Keynote templates.</p></li>
-                  <li><b>Print Design</b><p>High-quality materials for print publications.</p></li>
+                  <li><b>Site Preparation</b><p> Clearing, grading, and preparing land for construction.</p></li>
+                  <li><b>Structural Repairs</b><p>Restoring and reinforcing damaged structures.</p></li>
+                  <li><b>Green Building</b><p>Eco-friendly construction with sustainable materials and energy-efficient solutions.</p></li>
+                  <li><b>Project Management</b><p> Ensuring timely and cost-effective completion of construction projects.</p></li>
+                  <li><b>Concrete and Masonry Work</b><p>Foundations, walls, and specialized stonework.</p></li>
                 </ul>
               </div>
               <a href="" class="hire center my_center">Hire A Designer<div class="shine"></div></a>
